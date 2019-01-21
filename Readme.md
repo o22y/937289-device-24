@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Даниил Тян](https://up.htmlacademy.ru/htmlcss/24/user/937289).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Кан] (https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
