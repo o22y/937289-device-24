@@ -1,0 +1,377 @@
+@font-face {
+font-family: "Gilroy extrabold";
+src:url("fonts/gilroyextrabold.woff2") format("woff2"),
+url("fonts/gilroyextrabold.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Gilroy light";
+src:url("fonts/gilroylight.woff2") format("woff2"),
+url("fonts/gilroylight.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Open Sans";
+src:url("fonts/opensans.woff2") format("woff2"),
+url("fonts/opensans.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "Open Sans light";
+src:url("fonts/opensanslight.woff2") format("woff2"),
+url("fonts/opensanslight.woff") format("woff");
+font-style: normal;
+font-weight: normal;
+}
+body {
+  magrin: 0;
+  padding: 0;
+
+  font-family: "Open Sans light", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #464646;
+  text-transform: none;
+
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font: inherit;
+  color: #ffffff;
+}
+.button  {
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+
+  background-color: #f0c52e;
+  background-size: 260px 8px;
+  background-image: url("img/yellow-pattern-small.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  box-shadow: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #f0c52e;
+  background-size: 260px 40px;
+  background-image: url("img/yellow-pattern-big.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.button:active {
+  color: #f7e184;
+
+  background-color: #000000;
+}
+.social-button {
+border: 1px solid #7e7e7e;
+border-radius: 50% 50%;
+
+background-color: #7e7e7e;
+
+opacity: 0.3;
+}
+.social-button:hover,
+.social-button:focus {
+  opacity: 0.6;
+}
+.social-button:active {
+  opacity: 0.1;
+}
+.main-header {
+  background-color: #f7e296;
+  background-image: url("img/light-yellow-pattern.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.header-logo {
+  opacity: 1;
+}
+.header-logo:hover,
+.header-logo:focus {
+  opacity: 0.6;
+}
+.header-logo:active {
+  opacity: 0.3;
+}
+.search-field {
+  font: inherit;
+  color: #000000;
+
+  background-color: transparent;
+  border: none;
+
+  opacity: 0.3;
+}
+.search-field:hover {
+  opacity: 0.6;
+}
+.search-field:focus {
+  border-bottom: 3px solid #000000;
+  opacity: 1;
+}
+.search-button {
+  font: inherit;
+  color: transparent;
+
+  border: none;
+  background-color: transparent;
+}
+.search-button:focus {
+  font: inherit;
+  color: #000000;
+
+  border: 3px solid #000000;
+  background-color: transparent;
+}
+.search-button:focus::after:hover {
+  content: "";
+  font: inherit;
+  color: #ffffff;
+
+  border: none;
+  background-color: #000000;
+}
+.search-button:focus::after:active {
+  content: "";
+  color: rgba(255, 255, 255, 0.3);
+}
+.user-navigation,
+.site-navigation {
+  list-style: none;
+}
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
+}
+.user-navigation {
+font: inherit;
+
+color: #000000;
+
+opacity: 1;
+}
+.site-navigation {
+  font-family: "Gilroy extrabold";
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+
+  opacity: 1;
+}
+.user-navigation:hover,
+.user-navigation:focus,
+.site-navigation:hover,
+.site-navigation:focus {
+  opacity: 0.6;
+}
+.user-navigation:active,
+.site-navigation:active {
+  opacity: 0.3;
+}
+.catalog-category-list {
+  list-style: none;
+}
+.index-columns h2{
+  font-family: "Gilroy extrabold";
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+}
+.delivery-companies {
+  font-family: "Gilroy extrabold";
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+
+  list-style: circle outside;
+}
+.info-link {
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+
+  background-color: #f0c52e;
+  background-size: 260px 8px;
+  background-image: url("img/yellow-pattern-small.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.info-link:hover,
+.info-link:focus {
+  background-color: #f0c52e;
+  background-size: 260px 40px;
+  background-image: url("img/yellow-pattern-big.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.info-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.main-footer {
+  font: inherit;
+  color: #ffffff;
+
+  background-color: #464646;
+  background-image: url("img/gray-pattern.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-logo {
+  opacity: 1;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  opacity: 0.6;
+}
+.footer-logo:active {
+  opacity: 0.3;
+}
+.footer-user-navigation {
+  color: #ffffff;
+}
+.footer-user-navigation a {
+  color: #ffffff;
+}
+.footer-navigation {
+  list-style: none;
+}
+.footer-navigation a {
+  color: #ffffff;
+}
+.footer-navigation {
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  opacity: 1;
+}
+.footer-navigation:hover,
+.footer-navigation:focus {
+  opacity: 0.6;
+}
+.footer-navigation:active {
+  opacity: 0.3;
+}
+.main-footer-bottom {
+  background-image: url("img/footer-yellow-pattern.png");
+  background-position: left;
+  background-size: 80px 8px;
+}
+.socials {
+  list-style: none;
+}
+.socials a {
+  color: #ffffff;
+}
+.social-button-facebook {
+  background-image: url("img/fb.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.social-button-instagram {
+  background-image: url("img/instagram.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.social-button-twitter {
+  background-image: url("img/twitter.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.htmlacademy-button {
+  opacity: 1;
+}
+}
+.htmlacademy-button:hover,
+.htmlacademy-button:focus {
+  opacity: 0.6;
+}
+.htmlacademy-button:active {
+  opacity: 0.1;
+}
+.modal {
+  font: inherit;
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("img/modal.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+}
+.modal-login label {
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.modal-login input[type="text"],
+.modal-login input[type="email"],
+.modal-login textarea {
+  font: inherit;
+  color: rgba(255, 0, 0, 0.4);
+
+  background-color: #f2f2f2;
+  opacity: 0.5;
+  border: none;
+}
+.modal-login input[type="text"]:hover,
+.modal-login input[type="email"]:hover,
+.modal-login textarea:hover {
+  background-color: #eaeaea;
+  opacity: 0.8;
+}
+.modal-login input[type="text"]:focus,
+.modal-login input[type="email"]:focus,
+.modal-login textarea:focus {
+  color: #000000;
+
+  background-color: transparent;
+
+  border: 3px solid #f0c52e;
+}
+.modal-login input[type="text"]:invalid,
+.modal-login input[type="email"]:invalid,
+.modal-login textarea:invalid {
+  font: inherit;
+  color: rgba(255, 0, 0, 0.4);
+
+  background-color: #f6dada;
+
+  border: none;
+}
+.modal-close {
+border: 1px solid #f0c52e;
+border-radius: 50% 50%;
+
+background-color: #f0c52e;
+background-image: url("img/modal-close.svg");
+opacity: 0.5;
+}
+.modal-close:hover,
+.modal-close:focus {
+  opacity: 1;
+}
+.modal-close:active {
+  opacity: 0.3;
+}
