@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -10,14 +12,13 @@
         <a class="main-header-logo" href="index.html">
         <img src="img/logo-device.svg" width="163" height="35" alt="Логотип «DEVICE»">
       </a>
-      <form class="filter" action="https://echo.htmlacademy.ru" method="get">
-   <input class="main-search-icon" type="search" name="main-search" placeholder="Поиск по сайту">
-   <button class="button search-button visually-hidden" type="su
-   "></button>
+      <form class="search" action="https://echo.htmlacademy.ru" method="get">
+        <input class="search-field" type="search" name="main-search" placeholder="Поиск по сайту">
+        <button class="search-button" type="submit">Найти</button>
   </form>
   <ul class="user-navigation">
     <li class="login-link"><a href="profile.html">Валентин Петухов</a></li>
-    <li class="login-link"><a href="log-out.html">Выйти</a></li>
+    <li class="logout-link"><a href="log-out.html">Выйти</a></li>
     <li class="login-link"><a href="compare.html">Сравнить</a></li>
     <li class="login-link"><a href="cart.html">Корзина</a></li>
   </ul>
@@ -100,7 +101,7 @@
             </form>
             </section>
           <section class="catalog">
-            <h2 class="catalog">Список селфи-палок</h2>
+            <h2 class="visually-hidden">Список селфи-палок</h2>
             <ul class="catalog-list">
               <li class="catalog-item">
                     <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи палка">
@@ -143,10 +144,10 @@
         </main>
         <footer class="main-footer">
           <div class="main-footer-top">
-          <img src="img/logo-device.svg" width="163" height="35" alt="Логотип «DEVICE»">
-          <ul class="user-navigation">
+          <img src="img/footer-logo-device.png" width="163" height="35" alt="Логотип «DEVICE»" class="footer-logo">
+          <ul class="user-navigation footer-user-navigation">
             <li class="login-link"><a href="profile.html">Валентин Петухов</a></li>
-            <li class="login-link"><a href="log-out.html">Выйти</a></li>
+            <li class="logout-link-footer"><a href="log-out.html">Выйти</a></li>
             <li class="login-link"><a href="compare.html">Сравнить</a></li>
             <li class="login-link"><a href="cart.html">Корзина</a></li>
           </ul>
@@ -161,12 +162,12 @@
           <p>Тел.: +7 (495) 495-95-95</p>
         </div>
           <div class="main-footer-bottom">
-          <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
+          <ul class="socials">
+            <li><a class="social-button social-button-facebook" href="#">Фейсбук</a></li>
+            <li><a class="social-button social-button-instagram" href="#">Инстаграм</a></li>
+            <li><a class="social-button social-button-twitter" href="#">Твиттер</a></li>
         </ul>
-          <a class="button" href="https://htmlacademy.ru"><img src="logo-html.png" width="27" height="35" alt="Логотип HTML Academy"></a>
+          <a class="htmlacademy-button" href="https://htmlacademy.ru"><img src="logo-html.svg" width="27" height="35" alt="Логотип HTML Academy"></a>
       </div>
       </footer>
   </body>

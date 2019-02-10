@@ -182,8 +182,35 @@ opacity: 1;
 .site-navigation:active {
   opacity: 0.3;
 }
+.logout-link {
+  font: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.3);
+}
 .catalog-category-list {
   list-style: none;
+}
+.page-title {
+  font-family: "Gilroy extrabold";
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+}
+.breadcrumbs a {
+  color: #464646;
+}
+.breadcrumbs {
+  font: inherit;
+
+  opacity: 1;
+}
+.breadcrumbs:hover,
+.breadcrumbs:focus {
+  opacity: 0.6;
+}
+.breadcrumbs:active {
+  opacity: 0.1;
 }
 .index-columns h2{
   font-family: "Gilroy extrabold";
@@ -224,6 +251,40 @@ opacity: 1;
 .info-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
+.filter label {
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.filter ul {
+  list-style: none;
+}
+.filter-option label{
+  font: inherit;
+  font-size: 14px;
+  line-height: 40px;
+
+  color: #000000;
+}
+.catalog-list {
+  list-style: none;
+}
+.catalog-item-title a{
+  font-family: "Gilroy extrabold";
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.catalog-item-price {
+  font-family: "Gilroy light";
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #464646;
+}
 .main-footer {
   font: inherit;
   color: #ffffff;
@@ -242,6 +303,12 @@ opacity: 1;
 }
 .footer-logo:active {
   opacity: 0.3;
+}
+.logout-link-footer {
+  font: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.3);
 }
 .footer-user-navigation {
   color: #ffffff;
