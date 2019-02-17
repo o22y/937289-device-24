@@ -9,9 +9,11 @@
   <body>
     <header class="main-header">
       <div class="main-header-top">
+        <div class="logo-container">
         <a class="main-header-logo" href="index.html">
         <img src="img/logo-device.svg" width="163" height="35" alt="Логотип «DEVICE»" class="header-logo">
       </a>
+    </div>
       <form class="search" action="https://echo.htmlacademy.ru" method="get">
    <input class="search-field" type="search" name="main-search" placeholder="Поиск по сайту">
    <button class="search-button" type="submit">Найти</button>
@@ -24,6 +26,7 @@
 </div>
 <div class="main-header-bottom">
         <nav class="main-navigation">
+          <div class="main-navigation-wrapper">
         <ul class="site-navigation">
           <li><a href="catalog.html">Каталог товаров</a>
             <ul class="catalog-category-list">
@@ -35,10 +38,13 @@
   <li><a href="quadcopters.html">Квадрокоптеры</a></li>
   </li>
       </ul>
+    </ul>
+        <ul class="user-info">
           <li><a href="guarantees.html">Гарантия</a></li>
           <li><a href="delivery.html">Доставка</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
+      </div>
       </nav>
     </div>
       </header>
@@ -74,6 +80,7 @@
     </div>
       </main>
         <footer class="main-footer">
+          <div class="footer-rows">
           <div class="main-footer-top">
           <a href="index.html">
           <img src="img/logo-device.svg" width="163" height="35" alt="Логотип «DEVICE»" class="footer-logo">
@@ -91,16 +98,18 @@
               <li><a href="guarantees.html">Гарантия</a></li>
               <li><a href="contacts.html">Контакты</a></li>
             </ul>
-          <p>Тел.: +7 (495) 495-95-95</p>
+          <p class="phonenumber">Тел.: +7 (495) 495-95-95</p>
         </div>
           <div class="main-footer-bottom">
+            <div class="yellow-pattern"><img src="img/yellow-pattern-small.png"></div>
           <ul class="socials">
           <li><a class="social-button social-button-facebook" href="#">Фейсбук</a></li>
           <li><a class="social-button social-button-instagram" href="#">Инстаграм</a></li>
           <li><a class="social-button social-button-twitter" href="#">Твиттер</a></li>
         </ul>
-          <a class="htmlacademy-button" href="https://htmlacademy.ru"><img src="img/logo-html.svg" width="27" height="35" alt="Логотип HTML Academy"></a>
+          <a class="htmlacademy-button" href="https://htmlacademy.ru"><img src="img/logo-html.svg" class="htmlacademylogo"width="27" height="35" alt="Логотип HTML Academy"></a>
       </div>
+    </div>
       </footer>
       <section class="modal modal-login">
         <h2 class="visually-hidden">Напишите нам</h2>
